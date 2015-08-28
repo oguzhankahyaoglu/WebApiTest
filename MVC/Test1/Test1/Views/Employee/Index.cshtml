@@ -12,7 +12,10 @@
     <title>MyView</title>
 </head>
 <body>
-    Hello 
+    <div style="text-align:right">
+        Hello, @Model.UserName
+        <a href="/Authentication/Logout">Logout</a>
+    </div>
     <hr />
     <div>
         <table>
@@ -29,6 +32,6 @@
             }
         </table>
         <a href="/Employee/AddNew">Add New</a>
-</div>
+    </div>
 </body>
 </html>

@@ -22,9 +22,11 @@ namespace Test1.Controllers
     public class EmployeeController : Controller
     {
         // GET: Test
+        [Authorize]
         public ActionResult Index()
         {
             var employeeListViewModel = new EmployeeListViewModel();
+            employeeListViewModel.UserName = User.Identity.Name; 
             var empBal = new EmployeeBusinessLayer();
             var employees = empBal.GetEmployees();
             var empViewModels = new List<EmployeeViewModel>();
