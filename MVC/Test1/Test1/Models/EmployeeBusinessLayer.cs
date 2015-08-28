@@ -22,6 +22,13 @@ namespace Test1.Models
             return e;
         }
 
+        public void UploadEmployees(List<Employee> employees)
+        {
+            var salesDal = new SalesERPDAL();
+            salesDal.Employees.AddRange(employees);
+            salesDal.SaveChanges();
+        }
+
         public UserStatus GetUserValidity(UserDetails u)
         {
             if (u.UserName == "Admin" && u.Password == "Admin")
