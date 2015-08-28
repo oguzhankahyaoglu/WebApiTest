@@ -22,9 +22,13 @@ namespace Test1.Models
             return e;
         }
 
-        public bool IsValidUser(UserDetails u)
+        public UserStatus GetUserValidity(UserDetails u)
         {
-            return u.UserName == "Admin" && u.Password == "Admin";
+            if (u.UserName == "Admin" && u.Password == "Admin")
+            {
+                return UserStatus.AuthenticatedAdmin;
+            }
+            return u.UserName == "Sukesh" && u.Password == "Sukesh" ? UserStatus.AuthentucatedUser : UserStatus.NonAuthenticatedUser;
         }
     }
 }

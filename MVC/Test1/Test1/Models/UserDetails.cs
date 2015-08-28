@@ -6,6 +6,13 @@ using System.Web;
 
 namespace Test1.Models
 {
+    public enum UserStatus
+    {
+        AuthenticatedAdmin,
+        AuthentucatedUser,
+        NonAuthenticatedUser
+    }
+    
     public class UserDetails
     {
         [StringLength(7, MinimumLength = 2, ErrorMessage = "UserName length should be between 2 and 7")]

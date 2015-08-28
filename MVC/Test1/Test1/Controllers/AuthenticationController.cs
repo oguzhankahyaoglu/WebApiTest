@@ -30,9 +30,13 @@ namespace Test1.Controllers
                 return View("Login");
             
             var bal = new EmployeeBusinessLayer();
-            if (bal.IsValidUser(u))
+            //New Code Start
+            var status = bal.GetUserValidity(u);
+            if (status == UserStatus.AuthenticatedAdmin || status == UserStatus.AuthentucatedUser)
             {
+                var isAdmin = status == UserStatus.AuthenticatedAdmin;
                 FormsAuthentication.SetAuthCookie(u.UserName, false);
+                Session["IsAdmin"] = isAdmin;
                 return RedirectToAction("Index", "Employee");
             }
             

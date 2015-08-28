@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Test1.Filters;
 using Test1.Models;
 using Test1.ViewModels;
 
@@ -26,7 +27,9 @@ namespace Test1.Controllers
         public ActionResult Index()
         {
             var employeeListViewModel = new EmployeeListViewModel();
-            employeeListViewModel.UserName = User.Identity.Name; 
+            employeeListViewModel.UserName = User.Identity.Name;
+            employeeListViewModel.FooterData = new FooterViewModel { CompanyName = "Hostamedia", Year = DateTime.Now.Year.ToString() };
+
             var empBal = new EmployeeBusinessLayer();
             var employees = empBal.GetEmployees();
             var empViewModels = new List<EmployeeViewModel>();
@@ -47,11 +50,6 @@ namespace Test1.Controllers
             return View("Index", employeeListViewModel);
         }
 
-        public ActionResult AddNew()
-        {
-            return View("CreateEmployee", new CreateEmployeeViewModel());
-        }
-
         public Customer GetCustomer()
         {
             Customer c = new Customer();
@@ -60,6 +58,23 @@ namespace Test1.Controllers
             return c;
         }
 
+        [ChildActionOnly]
+        public ActionResult GetAddNewLink()
+        {
+            if (Convert.ToBoolean(Session["IsAdmin"]))
+            {
+                return PartialView("AddNewLink");
+            }
+            return new EmptyResult();
+        }
+
+        [AdminFilter]
+        public ActionResult AddNew()
+        {
+            return View("CreateEmployee", new CreateEmployeeViewModel());
+        }
+
+        [AdminFilter]
         public ActionResult SaveEmployee(Employee e, string BtnSubmit)
         {
             switch (BtnSubmit)
