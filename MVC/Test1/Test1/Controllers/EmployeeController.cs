@@ -24,12 +24,10 @@ namespace Test1.Controllers
     {
         // GET: Test
         [Authorize]
+        [HeaderFooterFilter]
         public ActionResult Index()
         {
             var employeeListViewModel = new EmployeeListViewModel();
-            employeeListViewModel.UserName = User.Identity.Name;
-            employeeListViewModel.FooterData = new FooterViewModel { CompanyName = "Hostamedia", Year = DateTime.Now.Year.ToString() };
-
             var empBal = new EmployeeBusinessLayer();
             var employees = empBal.GetEmployees();
             var empViewModels = new List<EmployeeViewModel>();
@@ -69,12 +67,15 @@ namespace Test1.Controllers
         }
 
         [AdminFilter]
+        [HeaderFooterFilter]
         public ActionResult AddNew()
         {
-            return View("CreateEmployee", new CreateEmployeeViewModel());
+            var employeeListViewModel = new CreateEmployeeViewModel();
+            return View("CreateEmployee", employeeListViewModel);
         }
 
         [AdminFilter]
+        [HeaderFooterFilter]
         public ActionResult SaveEmployee(Employee e, string BtnSubmit)
         {
             switch (BtnSubmit)
@@ -88,17 +89,15 @@ namespace Test1.Controllers
                     }
                     else
                     {
-                        var vm = new CreateEmployeeViewModel();
-                        vm.FirstName = e.FirstName;
-                        vm.LastName = e.LastName;
+                        var vm = new CreateEmployeeViewModel
+                        {
+                            FirstName = e.FirstName,
+                            LastName = e.LastName,
+                        };
                         if (e.Salary.HasValue)
-                        {
                             vm.Salary = e.Salary.ToString();
-                        }
                         else
-                        {
                             vm.Salary = ModelState["Salary"].Value.AttemptedValue;
-                        }
                         return View("CreateEmployee", vm); // Day 4 Change - Passing e here
                     }
                 case "Cancel":
