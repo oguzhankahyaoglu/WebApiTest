@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using BusinessEntities;
+using BusinessLayer;
 using Test1.Filters;
-using Test1.Models;
-using Test1.ViewModels;
+using ViewModel;
 
 namespace Test1.Controllers
 {
@@ -25,7 +26,8 @@ namespace Test1.Controllers
         // GET: Test
         [Authorize]
         [HeaderFooterFilter]
-        public ActionResult Index()
+        [Route("Employee/List/{id:int}")]
+        public ActionResult Index(int id)
         {
             var employeeListViewModel = new EmployeeListViewModel();
             var empBal = new EmployeeBusinessLayer();

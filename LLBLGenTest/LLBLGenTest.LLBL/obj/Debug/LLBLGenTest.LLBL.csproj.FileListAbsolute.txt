@@ -1,0 +1,9 @@
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\DatabaseGeneric\bin\Debug\LLBLGenTest.LLBL.dll
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\DatabaseGeneric\bin\Debug\LLBLGenTest.LLBL.pdb
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\DatabaseGeneric\bin\Debug\SD.LLBLGen.Pro.LinqSupportClasses.NET35.dll
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\DatabaseGeneric\bin\Debug\SD.LLBLGen.Pro.ORMSupportClasses.NET20.dll
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\DatabaseGeneric\bin\Debug\SD.LLBLGen.Pro.LinqSupportClasses.NET35.xml
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\DatabaseGeneric\bin\Debug\SD.LLBLGen.Pro.ORMSupportClasses.NET20.xml
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\obj\Debug\LLBLGenTest.LLBL.dll
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\obj\Debug\LLBLGenTest.LLBL.pdb
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\obj\Debug\LLBLGenTest.LLBL.csprojResolveAssemblyReference.cache

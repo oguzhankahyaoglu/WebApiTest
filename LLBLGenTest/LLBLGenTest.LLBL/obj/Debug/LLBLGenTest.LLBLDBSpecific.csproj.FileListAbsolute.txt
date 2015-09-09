@@ -1,0 +1,10 @@
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\DatabaseSpecific\bin\Debug\LLBLGenTest.LLBLDBSpecific.dll.config
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\DatabaseSpecific\bin\Debug\LLBLGenTest.LLBLDBSpecific.dll
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\DatabaseSpecific\bin\Debug\LLBLGenTest.LLBLDBSpecific.pdb
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\DatabaseSpecific\bin\Debug\SD.LLBLGen.Pro.DQE.SqlServer.NET20.dll
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\DatabaseSpecific\bin\Debug\SD.LLBLGen.Pro.ORMSupportClasses.NET20.dll
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\DatabaseSpecific\bin\Debug\SD.LLBLGen.Pro.ORMSupportClasses.NET20.xml
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\DatabaseSpecific\bin\Debug\SD.LLBLGen.Pro.DQE.SqlServer.NET20.xml
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\obj\Debug\LLBLGenTest.LLBLDBSpecific.dll
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\obj\Debug\LLBLGenTest.LLBLDBSpecific.pdb
+D:\_Github\WebApiTest\LLBLGenTest\LLBLGenTest.LLBL\obj\Debug\LLBLGenTest.LLBLDBSpecific.csprojResolveAssemblyReference.cache

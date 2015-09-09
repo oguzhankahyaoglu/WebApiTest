@@ -1,0 +1,12 @@
+D:\_Github\WebApiTest\MVC\Test1\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\_Github\WebApiTest\MVC\Test1\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\_Github\WebApiTest\MVC\Test1\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\_Github\WebApiTest\MVC\Test1\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\_Github\WebApiTest\MVC\Test1\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+D:\_Github\WebApiTest\MVC\Test1\DataAccessLayer\bin\Debug\BusinessEntities.dll
+D:\_Github\WebApiTest\MVC\Test1\DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\_Github\WebApiTest\MVC\Test1\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\_Github\WebApiTest\MVC\Test1\DataAccessLayer\bin\Debug\BusinessEntities.pdb
+D:\_Github\WebApiTest\MVC\Test1\DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\_Github\WebApiTest\MVC\Test1\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\_Github\WebApiTest\MVC\Test1\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache

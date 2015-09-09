@@ -1,0 +1,15 @@
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\bin\Debug\LLBLGenTest.Application.dll
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\bin\Debug\LLBLGenTest.Application.pdb
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\bin\Debug\LLBLGenTest.LLBL.dll
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\bin\Debug\LLBLGenTest.LLBLDBSpecific.dll
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\bin\Debug\SD.LLBLGen.Pro.ORMSupportClasses.NET20.dll
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\bin\Debug\SD.LLBLGen.Pro.LinqSupportClasses.NET35.dll
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\bin\Debug\SD.LLBLGen.Pro.DQE.SqlServer.NET20.dll
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\bin\Debug\LLBLGenTest.LLBL.pdb
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\bin\Debug\LLBLGenTest.LLBLDBSpecific.pdb
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\bin\Debug\SD.LLBLGen.Pro.ORMSupportClasses.NET20.xml
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\bin\Debug\SD.LLBLGen.Pro.LinqSupportClasses.NET35.xml
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\bin\Debug\SD.LLBLGen.Pro.DQE.SqlServer.NET20.xml
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\obj\Debug\LLBLGenTest.Application.csprojResolveAssemblyReference.cache
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\obj\Debug\LLBLGenTest.Application.dll
+D:\_Github\WebApiTest\LLBLGenTest\BusinessLayer\obj\Debug\LLBLGenTest.Application.pdb

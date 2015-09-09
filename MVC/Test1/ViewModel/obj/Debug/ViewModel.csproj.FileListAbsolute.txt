@@ -1,0 +1,5 @@
+D:\_Github\WebApiTest\MVC\Test1\ViewModel\bin\Debug\ViewModel.dll
+D:\_Github\WebApiTest\MVC\Test1\ViewModel\bin\Debug\ViewModel.pdb
+D:\_Github\WebApiTest\MVC\Test1\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+D:\_Github\WebApiTest\MVC\Test1\ViewModel\obj\Debug\ViewModel.dll
+D:\_Github\WebApiTest\MVC\Test1\ViewModel\obj\Debug\ViewModel.pdb

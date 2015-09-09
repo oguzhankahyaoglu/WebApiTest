@@ -1,0 +1,5 @@
+D:\_Github\WebApiTest\MVC\Test1\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\_Github\WebApiTest\MVC\Test1\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\_Github\WebApiTest\MVC\Test1\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\_Github\WebApiTest\MVC\Test1\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\_Github\WebApiTest\MVC\Test1\BusinessEntities\obj\Debug\BusinessEntities.pdb

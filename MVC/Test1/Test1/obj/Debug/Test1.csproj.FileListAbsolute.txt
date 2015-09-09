@@ -25,6 +25,12 @@ D:\_Github\WebApiTest\MVC\Test1\Test1\obj\Debug\Test1.csprojResolveAssemblyRefer
 D:\_Github\WebApiTest\MVC\Test1\Test1\obj\Debug\Test1.dll
 D:\_Github\WebApiTest\MVC\Test1\Test1\obj\Debug\Test1.pdb
 D:\_Github\WebApiTest\MVC\Test1\Test1\bin\EntityFramework.dll
-D:\_Github\WebApiTest\MVC\Test1\Test1\bin\EntityFramework.SqlServer.dll
 D:\_Github\WebApiTest\MVC\Test1\Test1\bin\EntityFramework.xml
-D:\_Github\WebApiTest\MVC\Test1\Test1\bin\EntityFramework.SqlServer.xml
+D:\_Github\WebApiTest\MVC\Test1\Test1\bin\BusinessEntities.dll
+D:\_Github\WebApiTest\MVC\Test1\Test1\bin\BusinessLayer.dll
+D:\_Github\WebApiTest\MVC\Test1\Test1\bin\ViewModel.dll
+D:\_Github\WebApiTest\MVC\Test1\Test1\bin\DataAccessLayer.dll
+D:\_Github\WebApiTest\MVC\Test1\Test1\bin\BusinessEntities.pdb
+D:\_Github\WebApiTest\MVC\Test1\Test1\bin\BusinessLayer.pdb
+D:\_Github\WebApiTest\MVC\Test1\Test1\bin\ViewModel.pdb
+D:\_Github\WebApiTest\MVC\Test1\Test1\bin\DataAccessLayer.pdb
