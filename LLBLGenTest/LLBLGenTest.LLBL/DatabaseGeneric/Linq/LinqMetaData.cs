@@ -2,7 +2,7 @@
 // This is generated code. 
 //////////////////////////////////////////////////////////////
 // Code is generated using LLBLGen Pro version: 2.6
-// Code is generated on: 09 Eylül 2015 Çarşamba 16:20:11
+// Code is generated on: 10 Eylül 2015 Perşembe 16:20:14
 // Code is generated using templates: SD.TemplateBindings.Linq
 // Templates vendor: Solutions Design.
 //////////////////////////////////////////////////////////////
@@ -134,136 +134,136 @@ namespace LLBLGenTest.LLBL.Linq
 			return toReturn;
 		}
 
-		/// <summary>returns the datasource to use in a Linq query when targeting MyCategory1Entity instances in the database.</summary>
-		public DataSource2<MyCategory1Entity> Category1
+		/// <summary>returns the datasource to use in a Linq query when targeting Category1Entity instances in the database.</summary>
+		public DataSource2<Category1Entity> Category1
 		{
-			get { return new DataSource2<MyCategory1Entity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<Category1Entity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyCategory1PostEntity instances in the database.</summary>
-		public DataSource2<MyCategory1PostEntity> Category1Post
+		/// <summary>returns the datasource to use in a Linq query when targeting Category1PostEntity instances in the database.</summary>
+		public DataSource2<Category1PostEntity> Category1Post
 		{
-			get { return new DataSource2<MyCategory1PostEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<Category1PostEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyCategory2Entity instances in the database.</summary>
-		public DataSource2<MyCategory2Entity> Category2
+		/// <summary>returns the datasource to use in a Linq query when targeting Category2Entity instances in the database.</summary>
+		public DataSource2<Category2Entity> Category2
 		{
-			get { return new DataSource2<MyCategory2Entity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<Category2Entity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyCategory2PostEntity instances in the database.</summary>
-		public DataSource2<MyCategory2PostEntity> Category2Post
+		/// <summary>returns the datasource to use in a Linq query when targeting Category2PostEntity instances in the database.</summary>
+		public DataSource2<Category2PostEntity> Category2Post
 		{
-			get { return new DataSource2<MyCategory2PostEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<Category2PostEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyMainPageBannerEntity instances in the database.</summary>
-		public DataSource2<MyMainPageBannerEntity> MainPageBanner
+		/// <summary>returns the datasource to use in a Linq query when targeting MainPageBannerEntity instances in the database.</summary>
+		public DataSource2<MainPageBannerEntity> MainPageBanner
 		{
-			get { return new DataSource2<MyMainPageBannerEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<MainPageBannerEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyPostEntity instances in the database.</summary>
-		public DataSource2<MyPostEntity> Post
+		/// <summary>returns the datasource to use in a Linq query when targeting PostEntity instances in the database.</summary>
+		public DataSource2<PostEntity> Post
 		{
-			get { return new DataSource2<MyPostEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<PostEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyPostAttachmentEntity instances in the database.</summary>
-		public DataSource2<MyPostAttachmentEntity> PostAttachment
+		/// <summary>returns the datasource to use in a Linq query when targeting PostAttachmentEntity instances in the database.</summary>
+		public DataSource2<PostAttachmentEntity> PostAttachment
 		{
-			get { return new DataSource2<MyPostAttachmentEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<PostAttachmentEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyPostTagEntity instances in the database.</summary>
-		public DataSource2<MyPostTagEntity> PostTag
+		/// <summary>returns the datasource to use in a Linq query when targeting PostTagEntity instances in the database.</summary>
+		public DataSource2<PostTagEntity> PostTag
 		{
-			get { return new DataSource2<MyPostTagEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<PostTagEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MySysLanguageEntity instances in the database.</summary>
-		public DataSource2<MySysLanguageEntity> SysLanguage
+		/// <summary>returns the datasource to use in a Linq query when targeting SysLanguageEntity instances in the database.</summary>
+		public DataSource2<SysLanguageEntity> SysLanguage
 		{
-			get { return new DataSource2<MySysLanguageEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<SysLanguageEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MySysLogEntity instances in the database.</summary>
-		public DataSource2<MySysLogEntity> SysLog
+		/// <summary>returns the datasource to use in a Linq query when targeting SysLogEntity instances in the database.</summary>
+		public DataSource2<SysLogEntity> SysLog
 		{
-			get { return new DataSource2<MySysLogEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<SysLogEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MySysMltextEntity instances in the database.</summary>
-		public DataSource2<MySysMltextEntity> SysMltext
+		/// <summary>returns the datasource to use in a Linq query when targeting SysMltextEntity instances in the database.</summary>
+		public DataSource2<SysMltextEntity> SysMltext
 		{
-			get { return new DataSource2<MySysMltextEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<SysMltextEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MySysMltranslationEntity instances in the database.</summary>
-		public DataSource2<MySysMltranslationEntity> SysMltranslation
+		/// <summary>returns the datasource to use in a Linq query when targeting SysMltranslationEntity instances in the database.</summary>
+		public DataSource2<SysMltranslationEntity> SysMltranslation
 		{
-			get { return new DataSource2<MySysMltranslationEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<SysMltranslationEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MySysSettingEntity instances in the database.</summary>
-		public DataSource2<MySysSettingEntity> SysSetting
+		/// <summary>returns the datasource to use in a Linq query when targeting SysSettingEntity instances in the database.</summary>
+		public DataSource2<SysSettingEntity> SysSetting
 		{
-			get { return new DataSource2<MySysSettingEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<SysSettingEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MySysTransactionEntity instances in the database.</summary>
-		public DataSource2<MySysTransactionEntity> SysTransaction
+		/// <summary>returns the datasource to use in a Linq query when targeting SysTransactionEntity instances in the database.</summary>
+		public DataSource2<SysTransactionEntity> SysTransaction
 		{
-			get { return new DataSource2<MySysTransactionEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<SysTransactionEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MySysUserEntity instances in the database.</summary>
-		public DataSource2<MySysUserEntity> SysUser
+		/// <summary>returns the datasource to use in a Linq query when targeting SysUserEntity instances in the database.</summary>
+		public DataSource2<SysUserEntity> SysUser
 		{
-			get { return new DataSource2<MySysUserEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<SysUserEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyTagEntity instances in the database.</summary>
-		public DataSource2<MyTagEntity> Tag
+		/// <summary>returns the datasource to use in a Linq query when targeting TagEntity instances in the database.</summary>
+		public DataSource2<TagEntity> Tag
 		{
-			get { return new DataSource2<MyTagEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<TagEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyTeamEntity instances in the database.</summary>
-		public DataSource2<MyTeamEntity> Team
+		/// <summary>returns the datasource to use in a Linq query when targeting TeamEntity instances in the database.</summary>
+		public DataSource2<TeamEntity> Team
 		{
-			get { return new DataSource2<MyTeamEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<TeamEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyTeamPostEntity instances in the database.</summary>
-		public DataSource2<MyTeamPostEntity> TeamPost
+		/// <summary>returns the datasource to use in a Linq query when targeting TeamPostEntity instances in the database.</summary>
+		public DataSource2<TeamPostEntity> TeamPost
 		{
-			get { return new DataSource2<MyTeamPostEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<TeamPostEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyTextContentEntity instances in the database.</summary>
-		public DataSource2<MyTextContentEntity> TextContent
+		/// <summary>returns the datasource to use in a Linq query when targeting TextContentEntity instances in the database.</summary>
+		public DataSource2<TextContentEntity> TextContent
 		{
-			get { return new DataSource2<MyTextContentEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<TextContentEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyVideoEntity instances in the database.</summary>
-		public DataSource2<MyVideoEntity> Video
+		/// <summary>returns the datasource to use in a Linq query when targeting VideoEntity instances in the database.</summary>
+		public DataSource2<VideoEntity> Video
 		{
-			get { return new DataSource2<MyVideoEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<VideoEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyWeeklyProgrammeDayEntity instances in the database.</summary>
-		public DataSource2<MyWeeklyProgrammeDayEntity> WeeklyProgrammeDay
+		/// <summary>returns the datasource to use in a Linq query when targeting WeeklyProgrammeDayEntity instances in the database.</summary>
+		public DataSource2<WeeklyProgrammeDayEntity> WeeklyProgrammeDay
 		{
-			get { return new DataSource2<MyWeeklyProgrammeDayEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<WeeklyProgrammeDayEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
-		/// <summary>returns the datasource to use in a Linq query when targeting MyWeeklyProgrammeMatchEntity instances in the database.</summary>
-		public DataSource2<MyWeeklyProgrammeMatchEntity> WeeklyProgrammeMatch
+		/// <summary>returns the datasource to use in a Linq query when targeting WeeklyProgrammeMatchEntity instances in the database.</summary>
+		public DataSource2<WeeklyProgrammeMatchEntity> WeeklyProgrammeMatch
 		{
-			get { return new DataSource2<MyWeeklyProgrammeMatchEntity>(_adapterToUse, new MyElementCreator(), _customFunctionMappings, _contextToUse); }
+			get { return new DataSource2<WeeklyProgrammeMatchEntity>(_adapterToUse, new ElementCreator(), _customFunctionMappings, _contextToUse); }
 		}
 		
 		

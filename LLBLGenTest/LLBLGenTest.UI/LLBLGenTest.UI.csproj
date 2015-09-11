@@ -60,6 +60,7 @@
   <ItemGroup>
     <Content Include="Dynamic\Category1.aspx" />
     <Content Include="Dynamic\Default.aspx" />
+    <Content Include="Dynamic\Relations.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="Dynamic\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dynamic\Relations.aspx.cs">
+      <DependentUpon>Relations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dynamic\Relations.aspx.designer.cs">
+      <DependentUpon>Relations.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">

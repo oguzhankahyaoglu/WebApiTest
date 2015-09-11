@@ -2,7 +2,7 @@
 // This is generated code. 
 //////////////////////////////////////////////////////////////
 // Code is generated using LLBLGen Pro version: 2.6
-// Code is generated on: 09 Eylül 2015 Çarşamba 16:20:09
+// Code is generated on: 10 Eylül 2015 Perşembe 16:20:14
 // Code is generated using templates: SD.TemplateBindings.SharedTemplates.NET20
 // Templates vendor: Solutions Design.
 // Templates version: 
@@ -44,7 +44,7 @@ namespace LLBLGenTest.LLBL.HelperClasses
 		{
 			return _providerInstance;
 		}
-		
+
 		#region Custom InheritanceInfoProviderSingleton code
 		
 		// __LLBLGENPRO_USER_CODE_REGION_START CustomInheritanceInfoProviderSingletonCode

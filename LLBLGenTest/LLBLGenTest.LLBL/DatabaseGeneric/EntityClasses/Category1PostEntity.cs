@@ -2,7 +2,7 @@
 // This is generated code. 
 //////////////////////////////////////////////////////////////
 // Code is generated using LLBLGen Pro version: 2.6
-// Code is generated on: 09 Eylül 2015 Çarşamba 16:20:10
+// Code is generated on: 10 Eylül 2015 Perşembe 16:20:15
 // Code is generated using templates: SD.TemplateBindings.SharedTemplates.NET20
 // Templates vendor: Solutions Design.
 // Templates version: 
@@ -42,11 +42,17 @@ namespace LLBLGenTest.LLBL.EntityClasses
 		private Category1Entity _category1;
 		private PostEntity _post;
 
+		
+		// __LLBLGENPRO_USER_CODE_REGION_START PrivateMembers
+		// __LLBLGENPRO_USER_CODE_REGION_END
+		#endregion
+
+		#region Statics
 		private static Dictionary<string, string>	_customProperties;
 		private static Dictionary<string, Dictionary<string, string>>	_fieldsCustomProperties;
-		
+
 		/// <summary>All names of fields mapped onto a relation. Usable for in-memory filtering</summary>
-		public static class MemberNames
+		public static partial class MemberNames
 		{
 			/// <summary>Member name Category1</summary>
 			public static readonly string Category1 = "Category1";
@@ -56,9 +62,6 @@ namespace LLBLGenTest.LLBL.EntityClasses
 
 
 		}
-		
-		// __LLBLGENPRO_USER_CODE_REGION_START PrivateMembers
-		// __LLBLGENPRO_USER_CODE_REGION_END
 		#endregion
 		
 		/// <summary> Static CTor for setting up custom property hashtables. Is executed before the first instance of this entity class or derived classes is constructed. </summary>
